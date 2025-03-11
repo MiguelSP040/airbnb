@@ -1,0 +1,108 @@
+/*import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+import { Avatar,Icon ,Image} from '@rneui/base';
+import MockupInstagram from './src/views/grid/MockupInstagram';
+//Todos los componentes de react native empiezan en mayus, y las funciones en minus
+export default function App() {
+  return (
+    <View style={styles.container}>
+        
+       <MockupInstagram backgroundColor='red'/>
+
+        <View style={{flexDirection: 'row', justifyContent: 'space-between', margin: 16}}>
+          <View style={{flexDirection: 'row'}}>
+            <Avatar
+              size={32}
+              rounded
+              source={{ uri: "https://randomuser.me/api/portraits/men/36.jpg" }}
+            />
+            <View style={{flexDirection: 'column', marginHorizontal: 8}}>
+              <Text style={styles.username}>Jonh Doe</Text>
+              <Text style={styles.song}>Cancion</Text>
+            </View>
+          </View> 
+          <Icon type="material-community" name="dots-vertical" size={16}/>
+        </View> 
+
+        <Image source={{uri:'https://placehold.co/600x400.png'}} style={{width:'100%', height:400}}/>
+
+        <View style={{flexDirection: 'row', justifyContent: 'space-between', margin: 16}}>
+          <View style={{flexDirection: 'row'}}>
+            <Icon type='material-community' name='heart' size={32} color={'red'}/>
+            <Icon type='material-community' name='message-outline' size={32}/>
+            <Icon type='material-community' name='share-outline' size={32}/>
+          </View>
+          <Icon type='material-community' name='dots-horizontal' size={32}/>
+          <Icon type='material-community' name='bookmark-outline' size={32}/>
+            
+        </View>
+
+        <View style={{flexDirection: 'row', margin: 8}}>
+          <Avatar
+            size={32}
+            rounded
+            source={{ uri: "https://randomuser.me/api/port"}}
+          />
+          <Text style={{marginHorizontal: 8}}>Jonh Plat</Text>
+        </View>
+        <Text style={{marginHorizontal: 8}}>Comentario</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingVertical: 64,
+    paddingHorizontal:16,
+  },
+  username:{
+    fontSize:12,
+    fontWeight: 'bold',
+  },
+  song: {
+    fontSize: 10,
+    color: 'gray',
+  }
+});
+aqui va el mockup de insta
+import React  from "react";
+import { StyleSheet, View, Text } from "react-native";
+import { Avatar } from "@rneui/base";
+
+export default function MockupInstagram(props) {
+    const {backgroundColor,size1,size2,size3} = props;
+    return(
+        <View style={{flexDirection: 'row', marginHorizontal: 8, backgroundColor: backgroundColor}}>
+          <Avatar
+            size= {64}
+            rounded
+            title='JB'
+            containerStyle={styles.avatar}
+          />
+          <Avatar
+            size= {64}
+            rounded
+            title='JB'
+            containerStyle={styles.avatar}
+          />
+          <Avatar
+            size= {64}
+            rounded
+            title='JB'
+            containerStyle={styles.avatar}
+          />
+        </View>
+    )
+}
+
+const styles= StyleSheet.create({
+
+    avatar: {
+        marginHorizontal: 8,
+        backgroundColor: 'blue',
+        borderRadius: 50,
+    },
+})
+*/
